@@ -1,0 +1,16 @@
+.grid{
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    gap: 20px;
+}
+div{
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    gap: 20px;
+}
+.grid-data{
+    display: flex;
+    width: 290px;
+    flex-direction: column;
+    border: 1px solid gray;
+}
